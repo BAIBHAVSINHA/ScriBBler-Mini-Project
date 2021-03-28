@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: whitesmoke;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo-title {
+    font-family: "Satisfy", cursive;
+    font-size: 50px;
+    color: #112fb4;
+    margin: auto;
+    text-decoration: none;
+    margin: 10px 10px 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Abel", sans-serif;
+  }
+  
+  .middleText {
+    font-family: "Marck Script", cursive;
+    margin: 0 0 0 10px;
+  }
+  #pageTitle:hover {
+    cursor: pointer;
+  }
+  
+  .container h4 {
+    text-align: center;
+  }
+  
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-pink {
+    background-color: rgb(243, 63, 87);
+    color: white;
+    border-radius: 0px;
+  }
+  
+  .btn-pink1 {
+    background-color: rgb(243, 63, 87);
+    color: white;
+    border-radius:5px;
+    width:100px;
+  }
+  
+  .btn-pink:hover {
+    color: white;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .second {
+    height: fit-content;
+  }
+  
+  .second {
+    text-align: left;
+  }
+  
+  .fa-edit,
+  .fa-thumbs-up {
+    font-size: 14px;
+  }
+  
+  #comment {
+    width: 100%;
+  }
+  
+  .container {
+    width: 80%;
+  }
+  
+  #seeComments {
+    padding: 1rem;
+    background-color: lightgrey;
+  }
+  
+  .content {
+    padding: 1rem;
+    outline: none;
+  }
+  
+  .btn-primary{
+    background:rgb(0,0,255);
+    border-radius:0px;
+    margin-left:5px;
+    border-color:#f5f2f2 #797777 #797777 #fcf9f9;
+    border-width: 2px;
+  }
+  
+  .btn-success {
+    border-radius:0px;
+  }
+  
+  .form-control {
+    border-radius:0px;
+  }
+  
+  .modal-footer {
+    margin: auto;
+  }
+  
+  #signUpLink {
+    color: blue;
+  }
+  
